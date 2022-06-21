@@ -1,0 +1,20 @@
+{
+  "name": "orm",
+  "version": "0.0.1",
+  "main": "dist/src/index",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src/*.ts",
+    "clean": "rm -r dist/* | rm note-book.db"
+  },
+  "dependencies": {
+    "pluralize": "^8.0.0",
+    "sqlite": "^4.1.1",
+    "sqlite3": "^5.0.8"
+  },
+  "devDependencies": {
+    "@types/pluralize": "^0.0.29",
+    "@types/sqlite3": "^3.1.8"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "exclude": ["**/node_modules"],
+  "files": [],
+  "include": [],
+  "references": [
+    { "path": "./apps/config" },
+    { "path": "./apps/orm" },
+    { "path": "./apps/frontend" },
+    { "path": "./apps/express-server" },
+    { "path": "./apps/fastify-server" },
+    { "path": "./apps/nodejs-server" },
+  ]
+}

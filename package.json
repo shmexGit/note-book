@@ -1,0 +1,14 @@
+{
+  "name": "note-book",
+  "version": "0.0.1",
+  "description": "Created for nodejs-course (Dualboot Partners)",
+  "author": "grishinarpz@gmail.com",
+  "private": true,
+  "license": "UNLICENSED",
+  "workspaces": [
+    "apps/*"
+  ],
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  }
+}

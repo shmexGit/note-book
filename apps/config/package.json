@@ -1,0 +1,15 @@
+{
+  "name": "config",
+  "version": "0.0.1",
+  "main": "dist/src/index",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node dist/src/index.js",
+    "build": "tsc",
+    "lint": "eslint src/*.ts",
+    "clean": "rm -r dist/*"
+  },
+  "dependencies": {
+    "ts-dotenv": "^0.8.3"
+  }
+}
